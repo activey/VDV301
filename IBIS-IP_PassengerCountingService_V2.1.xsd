@@ -162,6 +162,7 @@
 			<xs:element name="CountingStates" type="CountingStateStructure" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
+	<xs:element name="PassengerCountingService.GetCountingStateResponse" type="PassengerCountingService.GetCountingStateResponseStructure"/>
 	<xs:complexType name="PassengerCountingService.GetCountingStateResponseStructure">
 		<xs:annotation>
 			<xs:documentation>Response structure of the PassengerCountingService operation GetCountingState</xs:documentation>
